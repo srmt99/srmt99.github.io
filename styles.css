@@ -87,7 +87,7 @@
 
 /* left side of the page */
 #sections {
-    max-width: 260px;
+    max-width: max-content;
     padding: 5px;
     width: 100%;
 }
@@ -100,10 +100,15 @@
     padding-bottom: 5%;
 }
 
-#section-sublinks {
+.section-sublinks {
     display: flex;
     justify-content: space-around;
-    margin: auto;
+    margin-top: 10px;
+}
+
+.compact{
+	margin-left: 32px;
+	margin-right: 32px;
 }
 
 #contact-info {
@@ -138,6 +143,11 @@
     display: flex;
     flex-direction: row;
     justify-content: start;
+}
+
+.icon
+{
+    width: 30px;
 }
 
 /* experience tab */
