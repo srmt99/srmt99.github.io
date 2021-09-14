@@ -33,6 +33,10 @@ document.getElementById("home").onclick = function()
         </ul>
     </div>
     `
+	document.getElementById("home").style.color = "black"
+	document.getElementById("experience").style.color = "blue"
+	document.getElementById("projects").style.color = "blue"
+	document.getElementById("hobbies").style.color = "blue"
     return false;
 }
 
@@ -78,6 +82,11 @@ document.getElementById("experience").onclick = function()
         </div>
     </div>
     `
+	document.getElementById("home").style.color = "blue"
+	document.getElementById("experience").style.color = "black"
+	document.getElementById("projects").style.color = "blue"
+	document.getElementById("hobbies").style.color = "blue"
+	
     return false;
 }
 
@@ -108,6 +117,10 @@ document.getElementById("projects").onclick = function()
     </div>
 
     `
+	document.getElementById("home").style.color = "blue"
+	document.getElementById("experience").style.color = "blue"
+	document.getElementById("projects").style.color = "black"
+	document.getElementById("hobbies").style.color = "blue"
     return false;
 }
 
@@ -119,5 +132,9 @@ document.getElementById("hobbies").onclick = function()
     </div>
     <img class="art-image" src="data/artwork.jpg" alt="">
     `
+	document.getElementById("home").style.color = "blue"
+	document.getElementById("experience").style.color = "blue"
+	document.getElementById("projects").style.color = "blue"
+	document.getElementById("hobbies").style.color = "black"
     return false;
 }
