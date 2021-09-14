@@ -11,7 +11,7 @@ document.getElementById("home").onclick = function()
         I would describe myself as someone who loves his field of study and is always eager to learn more.
         My main interest is in the field of Artificial intelligence and its applications.
         I am genuinely intrigued by the way "learning" works, and It's my dream and ambition
-        to contribute my small share in achieving strong AI.
+        to contribute my small share to achieving strong AI.
         </p>
         <p>
         Starting about three years ago, I have been trying to learn as much as I can about AI both inside and outside the university.
