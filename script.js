@@ -69,9 +69,9 @@ document.getElementById("experience").onclick = function()
                 <h6>at <a class="non_underline-link" href="https://www.roshan-ai.ir/">Roshan-AI</a>, a knowledge enterprise</h6>
                 <h6>My duties were:</h6>
                 <ul class="duties">
-                    <li>Gathering a Persian text corpus by developing a web crawler application</li>
+                    <li>Gathering a Persian text corpus by developing a <a class="non_underline-link" href="https://github.com/srmt99/web-crawler" id="home">web crawler</a></li>
                     <li>Using the same data to learn Persian word embeddings</li>
-                    <li>Designing a stock market predictor model and Gathering its needed data</li>
+                    <li>Designing a stock market predictor model and Gathering its data</li>
                 </ul>
             </div>
             <img src="data/roshan-icon.jpg" class="exp-img" id="roshan-icon" alt="course tutorials by Soroush Mortazavi Moghaddam">
