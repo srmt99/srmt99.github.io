@@ -76,15 +76,18 @@
         width: 300px;
     }
     #AI-Projs{
+        max-width: max-content;
         margin-left: 5%;
+    }
+    #BS-thesis{
+        max-width: max-content;
     }
 }
 
 
 /* left side of the page */
 #sections {
-    max-width: fit-content;
-    /* background-color: burlywood; */
+    max-width: 260px;
     padding: 5px;
     width: 100%;
 }
