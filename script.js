@@ -53,7 +53,7 @@ document.getElementById("experience").onclick = function()
                     <li>Operating Systems</li>
                     <li>Computer Architecture</li>
                 </ul>
-                <h6>I was responsible primarily for::</h6>
+                <h6>I was primarily responsible for:</h6>
                 <ul class="duties">
                     <li>Designing and grading assignments, quizzes, and course projects</li>
                     <li>Creating video tutorials, assignment solutions, and extra resources</li>
