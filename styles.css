@@ -75,6 +75,9 @@
     #AI-Projs-img{
         width: 300px;
     }
+    #AI-Projs{
+        margin-left: 5%;
+    }
 }
 
 
@@ -149,10 +152,6 @@
  .proj-item{
     width: fit-content;
     margin-bottom: 6%;
-}
-
-#AI-Projs{
-    margin-left: 5%;
 }
 
 /* hobbies tab */
