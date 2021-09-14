@@ -1,0 +1,163 @@
+/* the whole structure */
+
+@media (max-width: 700px) {
+    #main {
+        display: flex;
+        margin-left: 7%;
+        margin-right: 7%;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+    }
+
+    #sections {
+        margin: auto;
+        justify-content: center;
+        max-width: fit-content;
+        padding: 5px;
+    }
+
+    .exp-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 7%;
+    }
+
+    #crs-tutorial {
+        width: 90%;
+    }
+    #roshan-icon{
+        width: 90%;
+    }
+    #content{
+        width: 100%;
+    }
+    .proj-image{
+        width: 95%;
+    }
+    .art-image{
+        width: 100%;
+    }
+}
+
+@media (min-width: 700px) {
+    #main {
+        margin-top: 5%;
+        margin-left: 7%;
+        margin-right: 7%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .exp-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 7%;
+    }
+
+    #crs-tutorial {
+        height: 400px;
+    }
+    #roshan-icon{
+        height: 150px;
+    }
+    .proj-image{
+        width: 500px;
+    }
+    .width-90 {
+        width: 75%;
+    }
+    .art-image{
+        width: 90%;
+    }
+    #AI-Projs-img{
+        width: 300px;
+    }
+}
+
+
+/* left side of the page */
+#sections {
+    max-width: fit-content;
+    /* background-color: burlywood; */
+    padding: 5px;
+    width: 100%;
+}
+
+#section-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#section-sublinks {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    margin-top: 10px;
+}
+
+#avatar-img {
+    display: block;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+  }
+
+/* right side of the page (content) */
+#content{
+    /* background-color:cornsilk; */
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 100%;
+}
+
+/* other parts */
+.non_underline-link {
+    text-decoration: none;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+/* experience tab */
+
+.content-header{
+    margin-bottom: 3%;
+}
+
+.exp-img{
+    margin-left: 5%;
+}
+
+/* proj tab */
+
+ .proj-item{
+    width: fit-content;
+    margin-bottom: 6%;
+}
+
+#AI-Projs{
+    margin-left: 5%;
+}
+
+/* hobbies tab */
+
+#content{
+    width: 90%;
+    margin-bottom: 3%;
+}
