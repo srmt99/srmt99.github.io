@@ -21,7 +21,7 @@ document.getElementById("home").onclick = function()
         by Amirkabir University of Technology.
         </p>
         <p>
-        My primary goal is to continue my studies as an M.Sc. student in a top-ranking university and conduct research as a member
+        My primary goal is to continue my studies in a top-ranking university and conduct research as a member
         of an enthusiastic team. This, I hope, would give me the academic background that I need to be knowledgeable in my field
         and successful in my future career.
         </p>
