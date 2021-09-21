@@ -8,14 +8,15 @@ document.getElementById("home").onclick = function()
     </div>
     <div id="content-text">
         <p>
-        I would describe myself as someone who loves his field of study and is always eager to learn more.
-        My main interest is in the field of Artificial intelligence and its applications.
-        I am genuinely intrigued by the way "learning" works, and It's my dream and ambition
+        I would describe myself as someone who loves his field of study and is always eager to learn more.<br>
+        My main <strong>interest</strong> is in the field of <strong>Artificial intelligence</strong> and its applications.
+        I am especially interested in <strong>machine/deep learning</strong>, and how it can be used in real world problems.
+        I am genuinely intrigued by the way "<strong>learning</strong>" works, and It's my dream and ambition
         to contribute my small share to achieving strong AI.
         </p>
         <p>
         Starting about three years ago, I have been trying to learn as much as I can about AI both inside and outside the university.
-        I have passed several AI-related courses, all with A's, and have practiced this knowledge in a number of projects.
+        I have passed several AI-related courses, all with A's, and have practiced this knowledge in a number of <a  onclick="show_projects()" class="non_underline-link blue-btn projects" href="#" >projects</a>.
         My current total GPA is 3.86/4 and 4/4 in the last two years.
         I ranked 19 out of 30k students (top 0.07%) in our national university entrance exam and was announced as an outstanding student
         by Amirkabir University of Technology.
@@ -25,17 +26,14 @@ document.getElementById("home").onclick = function()
         of an enthusiastic team. This, I hope, would give me the academic background that I need to be knowledgeable in my field
         and successful in my future career.
         </p>
-        <h6>Fields of interest:</h6>
-        <ul id="interests">
-            <li>Machine/Deep learning</li>
-            <li>Reinforcement learning</li>
-            <li>Computer vision</li>
-        </ul>
     </div>
     `
 	document.getElementById("home").style.color = "black"
 	document.getElementById("experience").style.color = "blue"
-	document.getElementById("projects").style.color = "blue"
+	var projects = document.getElementsByClassName("non_underline-link blue-btn projects")
+    for(var index=0;index < projects.length;index++){
+        projects[index].style.color = "blue";
+    }
 	document.getElementById("hobbies").style.color = "blue"
     return false;
 }
@@ -84,13 +82,15 @@ document.getElementById("experience").onclick = function()
     `
 	document.getElementById("home").style.color = "blue"
 	document.getElementById("experience").style.color = "black"
-	document.getElementById("projects").style.color = "blue"
+	var projects = document.getElementsByClassName("non_underline-link blue-btn projects")
+    for(var index=0;index < projects.length;index++){
+        projects[index].style.color = "blue";
+    }
 	document.getElementById("hobbies").style.color = "blue"
-	
     return false;
 }
 
-document.getElementById("projects").onclick = function() 
+function show_projects() 
 {
     document.getElementById("content").innerHTML = `
     <div class="content-header">
@@ -119,7 +119,10 @@ document.getElementById("projects").onclick = function()
     `
 	document.getElementById("home").style.color = "blue"
 	document.getElementById("experience").style.color = "blue"
-	document.getElementById("projects").style.color = "black"
+	var projects = document.getElementsByClassName("non_underline-link blue-btn projects")
+    for(var index=0;index < projects.length;index++){
+        projects[index].style.color = "black";
+    }
 	document.getElementById("hobbies").style.color = "blue"
     return false;
 }
@@ -134,7 +137,10 @@ document.getElementById("hobbies").onclick = function()
     `
 	document.getElementById("home").style.color = "blue"
 	document.getElementById("experience").style.color = "blue"
-	document.getElementById("projects").style.color = "blue"
+	var projects = document.getElementsByClassName("non_underline-link blue-btn projects")
+    for(var index=0;index < projects.length;index++){
+        projects[index].style.color = "blue";
+    }
 	document.getElementById("hobbies").style.color = "black"
     return false;
 }
