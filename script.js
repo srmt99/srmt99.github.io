@@ -9,7 +9,7 @@ document.getElementById("home").onclick = function()
     <div id="content-text">
         <p>
         I would describe myself as someone who loves his field of study and is always eager to learn more.<br>
-        My main <strong>interest</strong> is in the field of <strong>Artificial intelligence</strong> and its applications.
+        My main interest is in the field of <strong>Artificial intelligence</strong> and its applications.
         I am especially interested in <strong>machine/deep learning</strong>, and how it can be used in real world problems.
         I am genuinely intrigued by the way "<strong>learning</strong>" works, and It's my dream and ambition
         to contribute my small share to achieving strong AI.
