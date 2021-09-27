@@ -107,13 +107,13 @@ function show_projects()
             <img class="proj-image" id="AI-Projs-img" src="data/AI_Projs.png" alt="">
         </div>
     </div>
-    <div class="proj-item">
-        <h6><a class="non_underline-link" href="https://github.com/srmt99/machine-learning/tree/master/captcha-conv">Portal CAPTCHA Solver</a></h6>
-        <img class="proj-image width-90" src="data/CAPTCHA_solver.jpg" alt="">
+	<div class="proj-item">
+        <h6><a class="non_underline-link" href="https://github.com/srmt99/stock-market">Stock Market Predictor (research project)</a></h6>
+        <img class="proj-image width-90" src="data/stock.jpg" alt="">
     </div>
     <div class="proj-item">
-        <h6><a class="non_underline-link" href="https://github.com/srmt99/stock-market">Stock Market Predictor</a></h6>
-        <img class="proj-image width-90" src="data/stock.jpg" alt="">
+        <h6><a class="non_underline-link" href="https://github.com/srmt99/machine-learning/tree/master/captcha-conv">Portal CAPTCHA Solver (personal project)</a></h6>
+        <img class="proj-image width-90" src="data/CAPTCHA_solver.jpg" alt="">
     </div>
 
     `
