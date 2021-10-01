@@ -30,6 +30,9 @@
     #roshan-icon{
         width: 90%;
     }
+    #stock-short{
+        width: 90%;
+    }
     #content{
         width: 100%;
     }
@@ -62,6 +65,9 @@
     }
     #roshan-icon{
         height: 150px;
+    }
+    #stock-short{
+        height: 225px;
     }
     .proj-image{
         width: 500px;

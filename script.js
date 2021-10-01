@@ -49,11 +49,12 @@ document.getElementById("experience").onclick = function()
             <div class="exp-info">
                 <h5>I have been a teaching assistant in several courses:</h5>
                 <ul id="tas">
-                    <li>Computational Intelligence (2 semesters)</li>
-                    <li>Data Mining</li>
-                    <li>Principles of Cloud Computing</li>
-                    <li>Operating Systems</li>
-                    <li>Computer Architecture</li>
+                    <li><strong>Computational Intelligence</strong> [fall 2020 - present]</li>
+                    <li><strong>Artificial intelligence</strong> [present]</li>
+					<li><strong>Data Mining</strong> [spring 2021]</li>
+                    <li><strong>Principles of Cloud Computing</strong> [spring 2021]</li>
+                    <li><strong>Operating Systems</strong> [spring 2020]</li>
+                    <li><strong>Computer Architecture</strong> [fall 2019]</li>
                 </ul>
                 <h6>I was primarily responsible for:</h6>
                 <ul class="duties">
@@ -67,8 +68,8 @@ document.getElementById("experience").onclick = function()
         </div>
         <div class="exp-item" id="exp-2">
             <div class="exp-info">
-                <h5>I have been a research and development Intern:</h5>
-                <h6>at <a class="non_underline-link" href="https://www.roshan-ai.ir/">Roshan-AI</a>, a knowledge enterprise</h6>
+                <h5>Research and development Intern:</h5>
+                <h6>at <a class="non_underline-link" href="https://www.roshan-ai.ir/">Roshan-AI</a>, a knowledge enterprise [summer 2020]</h6>
                 <h6>My duties were:</h6>
                 <ul class="duties">
                     <li>Gathering a Persian text corpus by developing a <a class="non_underline-link" href="https://github.com/srmt99/web-crawler" id="home">web crawler</a></li>
@@ -76,7 +77,19 @@ document.getElementById("experience").onclick = function()
                     <li>Designing a stock market predictor model and Gathering its data</li>
                 </ul>
             </div>
-            <img src="data/roshan-icon.jpg" class="exp-img" id="roshan-icon" alt="course tutorials by Soroush Mortazavi Moghaddam">
+            <img src="data/roshan-icon.jpg" class="exp-img" id="roshan-icon" alt="Roshan-AI icon">
+        </div>
+        <div class="exp-item" id="exp-3">
+            <div class="exp-info">
+                <h5>Voluntary research assistant:</h5>
+                <h6>Under the supervision of dr. Safabakhsh [spring 2020]</h6>
+                <h6>This was where I learned, in practice, about time-series data, various layer types and how to work with TensorFlow, TensorBoard, and Keras.</h6>
+                <h6>Our work mostly included:</h6>
+                <ul class="duties">
+                    <li>Implementing <a class="non_underline-link" href="https://github.com/srmt99/stock-market" id="home">RNN models</a> for stock market prediction</li>    
+                    <li>Gathering and preprocessing the needed data, and experimenting many different model architectures on them</li>
+            </div>
+            <img src="data/stock-short.jpg" class="exp-img" id="stock-short" alt="Stock market prediction using RNNs">
         </div>
     </div>
     `
@@ -99,7 +112,7 @@ function show_projects()
     </div>
     <div class="row">
         <div class="proj-item " id="BS-thesis">
-            <h6>Learning The Game of Gobblet (B.Sc Thesis)</h6>
+            <h6><a class="non_underline-link" href="https://github.com/srmt99/Gobblet-RL">Learning The Game of Gobblet (B.Sc Thesis)</a></h6>
             <img class="proj-image" src="data/RL_gobblet.jpg" alt="">
         </div>
         <div class="proj-item " id="AI-Projs" >
@@ -131,7 +144,7 @@ document.getElementById("hobbies").onclick = function()
 {
     document.getElementById("content").innerHTML = `
     <div class="content-header">
-        <h6>I really love drawing and sketching, especially portrays. Here are some of my work</h6>
+        <h6>I really love drawing and sketching, especially portrays. Here are some of my works</h6>
     </div>
     <img class="art-image" src="data/artwork.jpg" alt="">
     `
