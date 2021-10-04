@@ -39,9 +39,15 @@
     .proj-image{
         width: 95%;
     }
-    .art-image{
-        width: 100%;
-    }
+    .arts-image{
+	max-height: 90%;
+	}
+	.arts{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
 }
 
 @media (min-width: 700px) {
@@ -75,9 +81,15 @@
     .width-90 {
         width: 75%;
     }
-    .art-image{
-        width: 90%;
+    .arts-image{
+        height:300px;
     }
+	.arts{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	
     #AI-Projs-img{
         width: 300px;
     }
