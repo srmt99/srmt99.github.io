@@ -146,7 +146,17 @@ document.getElementById("hobbies").onclick = function()
     <div class="content-header">
         <h6>I really love drawing and sketching, especially portrays. Here are some of my works</h6>
     </div>
-    <img class="art-image" src="data/artwork.jpg" alt="">
+    <div class="arts">
+		<img class="arts-image" src="data/artwork_1.jpg" alt="">
+		<img class="arts-image" src="data/artwork_2.jpg" alt="">
+		<img class="arts-image" src="data/artwork_3.jpg" alt="">
+	</div>
+	<div class="arts">
+		<img class="arts-image" src="data/artwork_4.jpg" alt="">
+		<img class="arts-image" src="data/artwork_5.jpg" alt="">
+		<img class="arts-image" src="data/artwork_6.jpg" alt="">
+	</div>
+	
     `
 	document.getElementById("home").style.color = "blue"
 	document.getElementById("experience").style.color = "blue"
