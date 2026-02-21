@@ -185,10 +185,20 @@
     text-decoration: none;
 }
 
-.row{
+.proj-row{
     display: flex;
     flex-direction: row;
     justify-content: start;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.proj-row .proj-item{
+    flex: 1 1 320px;
+}
+
+.proj-row .proj-image{
+    width: 100%;
 }
 
 .icon
