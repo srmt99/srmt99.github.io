@@ -90,9 +90,17 @@
     .proj-image{
         width: 500px;
     }
-    .width-90 {
-        width: 75%;
-    }
+.width-90 {
+    width: 75%;
+}
+
+.proj-item-wide{
+    width: 100%;
+}
+
+.proj-item-wide .proj-image{
+    width: 100%;
+}
     .arts-image{
         height:300px;
     }
@@ -102,9 +110,6 @@
 		justify-content: center;
 	}
 	
-    #AI-Projs-img{
-        width: 300px;
-    }
     #AI-Projs{
         max-width: max-content;
         margin-left: 5%;
@@ -130,6 +135,16 @@
     padding-bottom: 5%;
 }
 
+#section-links h5 {
+    margin: 0 0 2px 0;
+}
+
+#section-links a {
+    margin: 0;
+    padding: 3px 0;
+    line-height: 1.2;
+}
+
 .section-sublinks {
     display: flex;
     justify-content: space-around;
@@ -144,6 +159,9 @@
 
 .blue-btn{
 	color: blue;
+}
+.nav-link.active{
+    color: black;
 }
 
 #contact-info {
@@ -167,6 +185,7 @@
     margin-top: 4%;
     margin-left: 5%;
     width: 100%;
+    margin-bottom: 3%;
 }
 
 /* other parts */
@@ -174,10 +193,20 @@
     text-decoration: none;
 }
 
-.row{
+.proj-row{
     display: flex;
     flex-direction: row;
     justify-content: start;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.proj-row .proj-item{
+    flex: 1 1 320px;
+}
+
+.proj-row .proj-image{
+    width: 100%;
 }
 
 .icon
@@ -204,8 +233,3 @@
 }
 
 /* hobbies tab */
-
-#content{
-    width: 90%;
-    margin-bottom: 3%;
-}
