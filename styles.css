@@ -90,9 +90,17 @@
     .proj-image{
         width: 500px;
     }
-    .width-90 {
-        width: 75%;
-    }
+.width-90 {
+    width: 75%;
+}
+
+.proj-item-wide{
+    width: 100%;
+}
+
+.proj-item-wide .proj-image{
+    width: 100%;
+}
     .arts-image{
         height:300px;
     }
